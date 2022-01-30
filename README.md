@@ -1,2 +1,2 @@
-# daliy-tools
+# daily-tools
 tommy's daily tools
