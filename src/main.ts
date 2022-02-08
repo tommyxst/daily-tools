@@ -4,5 +4,6 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 import antd from 'ant-design-vue'
+import 'ant-design-vue/dist/antd.css'
 
 createApp(App).use(antd).use(store).use(router).mount('#app')
