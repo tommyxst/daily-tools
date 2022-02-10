@@ -1,9 +1,13 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
-import ToDo from '../views/ToDoList.vue'
+import ToDo from '../views/ToDoList/ToDoList.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
+    redirect: '/todo'
+  },
+  {
+    path: '/todo',
     name: 'ToDo',
     component: ToDo
   }
