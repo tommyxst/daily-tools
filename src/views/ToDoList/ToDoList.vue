@@ -1,9 +1,9 @@
 <template>
   <section>
-    <a-layout>
+    <a-layout style="height: 100vh">
       <a-layout-header class="header">
-        <div id="logo"></div>
-        <span>My Todo List</span>
+        <div class="header-logo" id="logo"></div>
+        <span class="header-text">My Todo List</span>
       </a-layout-header>
       <a-layout>
         <to-do-list-group></to-do-list-group>
@@ -44,5 +44,11 @@ export default class ToDoList extends Vue {
 <style lang="less" scoped>
 .header {
   background-color: gray;
+  height: 48px;
+  display: flex;
+  .header-text {
+    display: flex;
+    align-items: center;
+  }
 }
 </style>

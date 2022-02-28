@@ -1,5 +1,5 @@
 <template>
-  <a-layout-sider>
+  <a-layout-sider theme="light">
     <a-menu v-model:selectedKeys="selectedKeys" mode="vertical">
       <a-menu-item key="today">
         <template #icon>

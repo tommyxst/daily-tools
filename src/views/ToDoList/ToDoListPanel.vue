@@ -29,7 +29,6 @@
 </template>
 
 <script lang="ts">
-// import { Component } from 'vue-property-decorator'
 import { Vue, Options } from "vue-class-component"
 import { DeleteTwoTone } from "@ant-design/icons-vue"
 
